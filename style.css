@@ -1,4 +1,14 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:white;}
+section {margin-left:80px;}
+h1{color:gray;
+font-family: Arial, sans-serif;}
+span{width: 100px;
+float:left;}
+article{
+    display:None;
+}
+.withcolor{
+    background-color:yellow;
+}
 
 
