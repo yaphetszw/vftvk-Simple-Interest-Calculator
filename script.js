@@ -1,4 +1,9 @@
 function compute(){  
+    if (document.getElementById('principal').value=="" || document.getElementById('principal').value<=0){
+        alert("Enter a positive number!!!");
+        document.getElementById("principal").focus();
+        return 
+    }
     var deposit=document.getElementById('principal').value;
     var rate= document.getElementById('rate').value;
     var year=document.getElementsByTagName('select')[0].value;
@@ -12,4 +17,3 @@ function compute(){
 function updateTextInput(val) {
           document.getElementById('range').innerHTML=val; 
         }
-        
